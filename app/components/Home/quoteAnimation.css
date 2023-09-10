@@ -1,0 +1,31 @@
+.fade-in {
+  transition: opacity 1s ease;
+  animation: textIn 1s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 2s ease;
+  animation: textOut 3s ease;
+}
+
+@keyframes textIn {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes textOut {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+
+  }
+}
