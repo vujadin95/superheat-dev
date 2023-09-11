@@ -1,12 +1,12 @@
 .fade-in {
-  transition: opacity 1s ease;
-  animation: textIn 1s ease;
+  transition: opacity 0.5s ease;
+  animation: textIn 0.5s ease;
 }
 
 .fade-out {
   opacity: 0;
-  transition: opacity 2s ease;
-  animation: textOut 3s ease;
+  transition: opacity 1s ease;
+  animation: textOut 1s ease;
 }
 
 @keyframes textIn {
