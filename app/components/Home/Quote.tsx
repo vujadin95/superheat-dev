@@ -49,7 +49,7 @@ const Quote = ({ quotes }: QuoteProp) => {
         fadeIn ? "fade-in" : fadeOut ? "fade-out" : ""
       }`}
     >
-      <q className="text-4xl drop-shadow-2xl italic">{`${quotes[quoteIndex]}`}</q>
+      <q className="text-2xl md:text-4xl drop-shadow-2xl italic">{`${quotes[quoteIndex]}`}</q>
     </div>
   );
 };

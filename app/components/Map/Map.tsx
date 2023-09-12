@@ -14,7 +14,7 @@ const Map = () => {
   // const srnje = [43.63, 21.28];
   return (
     <MapContainer
-      className="h-[30rem]"
+      className="w-full h-full"
       center={latLng(kragujevac.lat, kragujevac.long)}
       zoom={7}
       scrollWheelZoom={true}
