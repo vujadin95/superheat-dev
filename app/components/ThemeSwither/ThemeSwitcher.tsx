@@ -19,8 +19,11 @@ const ThemeSwitcher = () => {
   }
 
   return (
-    <Button className="flex items-center gap-4" handleClick={toggleTheme}>
-      {theme && theme === "light" ? <DarkIcon /> : <LightIcon />}
+    <Button
+      className="flex items-center gap-4 relative group/show"
+      handleClick={toggleTheme}
+    >
+      {theme && (theme === "light" ? <DarkIcon /> : <LightIcon />)}
     </Button>
   );
 };

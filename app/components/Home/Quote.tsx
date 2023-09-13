@@ -45,11 +45,11 @@ const Quote = ({ quotes }: QuoteProp) => {
 
   return (
     <div
-      className={`text-center ${
+      className={`text-center shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] md:max-w-[80%] rounded-md bg-lightColor/95 dark:bg-darkColor/95  ${
         fadeIn ? "fade-in" : fadeOut ? "fade-out" : ""
       }`}
     >
-      <q className="text-2xl md:text-4xl drop-shadow-2xl italic">{`${quotes[quoteIndex]}`}</q>
+      <q className="text-2xl block md:text-4xl drop-shadow-2xl px-10 py-5">{`${quotes[quoteIndex]}`}</q>
     </div>
   );
 };

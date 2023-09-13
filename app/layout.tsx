@@ -22,11 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} min-h-[100vh] flex flex-col`}>
-        <div className="w-full bg-neutral text-primary fixed top-0 z-50">
+        <div className="w-full bg-lightColor dark:bg-darkColor dark:text-lightColor text-darkColor fixed top-0 z-50 shadow-[0px_20px_20px_0px_#00000024] ">
           <Header />
         </div>
-        <main className="pt-[75px]">{children}</main>
-        <div className="bg-neutral text-primary mt-auto">
+        <main className="pt-[60px] bg-lightColor dark:bg-darkColor">
+          {children}
+        </main>
+        <div className="bg-lightColor text-darkColor dark:bg-darkColor dark:text-lightColor mt-auto">
           <Footer />
         </div>
       </body>

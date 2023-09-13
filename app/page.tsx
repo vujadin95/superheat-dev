@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <section className="">
       <HeroSection />
-      <div className="w-full bg-primary">
+      <div className="w-full bg-lightColor dark:bg-darkColor">
         <div className="flex items-center flex-wrap gap-5 pt-10 pb-10 max-w-[1240px] mx-auto px-5">
           {cardDetails.map((card) => (
             <Card
@@ -20,15 +20,13 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className="bg-neutral text-primary bg-[url('/superheat.png')] bg-contain bg-center bg-s bg-no-repeat">
+      <div className="bg-lightColor text-darkColor dark:bg-darkColor dark:text-lightColor bg-[url('/superheat-black.png')] dark:bg-[url('/superheat-white.png')] bg-contain bg-center bg-s bg-no-repeat">
         <QuotationSection />
       </div>
-      <div className="bg-primary text-neutral">
+      <div className="">
         <Brands />
       </div>
-      <div className="bg-primary text-neutral">
-        <MapSection />
-      </div>
+      <div className="bg-primary text-neutral">{/* <MapSection /> */}</div>
     </section>
   );
 }

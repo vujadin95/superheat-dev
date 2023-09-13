@@ -8,7 +8,7 @@ const BackgroundImage = () => {
         fill
         priority={true}
         alt="some"
-        className="fixed object-cover bg-neutral/40"
+        className="fixed object-cover "
       />
     </>
   );

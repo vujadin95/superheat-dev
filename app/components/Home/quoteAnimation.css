@@ -1,15 +1,15 @@
 .fade-in {
   transition: opacity 0.5s ease;
-  animation: textIn 0.5s ease;
+  animation: slideIn 0.5s ease;
 }
 
 .fade-out {
   opacity: 0;
   transition: opacity 1s ease;
-  animation: textOut 1s ease;
+  animation: slideOut 1s ease;
 }
 
-@keyframes textIn {
+@keyframes slideIn {
   0% {
     transform: translateY(100%);
   }
@@ -19,7 +19,7 @@
   }
 }
 
-@keyframes textOut {
+@keyframes slideOut {
   0% {
     transform: translateY(0%);
   }
