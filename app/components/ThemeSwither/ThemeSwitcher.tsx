@@ -8,22 +8,39 @@ import { changeTheme } from "@/app/utils/themeHandler";
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState<undefined | string>(undefined);
-
-  useEffect(() => {
-    setTheme(localStorage.getItem("theme") || "light");
-  }, []);
+  const [isTheme, setIsTheme] = useState(false);
 
   function toggleTheme() {
     changeTheme();
     setTheme(localStorage.getItem("theme") || "light");
   }
 
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+      setTheme("dark");
+      setIsTheme(true);
+    } else {
+      setTheme("light");
+      setIsTheme(true);
+    }
+  }, []);
+
   return (
     <Button
       className="flex items-center gap-4 relative group/show"
       handleClick={toggleTheme}
     >
-      {theme && (theme === "light" ? <DarkIcon /> : <LightIcon />)}
+      {!isTheme ? (
+        <div className="lds-ring w-6 h-6">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      ) : (
+        theme && (theme === "light" ? <DarkIcon /> : <LightIcon />)
+      )}
     </Button>
   );
 };

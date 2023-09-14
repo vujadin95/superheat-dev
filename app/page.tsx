@@ -26,7 +26,7 @@ export default function Home() {
       <div className="">
         <Brands />
       </div>
-      <div className="bg-primary text-neutral">
+      <div className="text-darkColor dark:text-lightColor">
         <MapSection />
       </div>
     </section>
