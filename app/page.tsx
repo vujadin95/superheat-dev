@@ -26,7 +26,9 @@ export default function Home() {
       <div className="">
         <Brands />
       </div>
-      <div className="bg-primary text-neutral">{/* <MapSection /> */}</div>
+      <div className="bg-primary text-neutral">
+        <MapSection />
+      </div>
     </section>
   );
 }
