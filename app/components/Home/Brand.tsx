@@ -8,20 +8,22 @@ interface BrandType {
 const Brand = ({ path, brandName, img }: BrandType) => {
   return (
     <Link
-      as={"image"}
+      // as={"image"}
       href={path}
-      className="bg-lightColor text-darkColor flex flex-col items-center hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] transition duration-300 hover:rounded-sm hover:scale-110"
+      className="max-w-[140px] w-full rounded-md text-darkColor dark:text-lightColor flex shadow-xl flex-col items-center transition duration-200 hover:scale-110 overflow-hidden bg-zinc-200 hover:bg-zinc-100 dark:bg-zinc-700 dark:hover:bg-zinc-600"
     >
-      <div className="w-[140px] h-[120px] relative">
+      <div className="w-full h-[100px] relative">
         <Image
           src={img}
           alt={brandName}
           fill
           sizes="(max-width: 140px) 100vw"
-          className="object-contain h-full w-full"
+          className="object-scale-down"
         />
       </div>
-      <p className="font-semibold">{brandName}</p>
+      <p className="w-full text-center py-1 font-semibold text-sm sm:text-base">
+        {brandName}
+      </p>
     </Link>
   );
 };

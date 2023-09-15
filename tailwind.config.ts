@@ -10,15 +10,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // primary: "rgb(255 247 236 / <alpha-value>)",
-        lightColor: "#FFFFFF",
+        lightColor: "#F6F1F4",
         darkColor: "#333333",
-
         primary: "#333333",
         hoverColor: "#00000024",
         secondary: "rgb(201 185 143 / <alpha-value>)",
         terniary: "rgb(180 165 127 / <alpha-value>)",
-        // neutral: "rgb(34 39 40 / <alpha-value>)",
         neutral: "#FFFFFF",
       },
     },

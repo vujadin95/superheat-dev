@@ -5,7 +5,7 @@ interface QuoteProp {
   quotes: string[];
 }
 
-const FADE_IN_INTERVAL = 6000;
+const FADE_IN_INTERVAL = 10000;
 const FADE_OUT_INTERVAL = FADE_IN_INTERVAL - 1000;
 const CHANGE_QUOTE_INTERVAL = FADE_IN_INTERVAL;
 
@@ -45,11 +45,11 @@ const Quote = ({ quotes }: QuoteProp) => {
 
   return (
     <div
-      className={`text-center shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] md:max-w-[80%] rounded-md bg-lightColor/95 dark:bg-darkColor/95  ${
+      className={`text-center font-[500] shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] md:max-w-[80%] rounded-md bg-zinc-200/90 dark:bg-zinc-600/90 dark:text-lightColor text-darkColor ${
         fadeIn ? "fade-in" : fadeOut ? "fade-out" : ""
       }`}
     >
-      <q className="text-2xl block md:text-4xl drop-shadow-2xl px-10 py-5">{`${quotes[quoteIndex]}`}</q>
+      <q className=" sm:text-2xl md:text-3xl block drop-shadow-2xl px-5 sm:px-10 py-5">{`${quotes[quoteIndex]}`}</q>
     </div>
   );
 };

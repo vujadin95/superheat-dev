@@ -2,11 +2,11 @@ import NavLink from "../Header/Navbar/NavLink";
 import { ImMobile } from "react-icons/im";
 const HeroTelephone = () => {
   return (
-    <div className="z-20 flex flex-col items-center gap-4 text-neutral font-semibold mt-2">
-      <div className="w-full flex items-center gap-3 ">
+    <div className="z-20 text-sm sm:text-base flex flex-col items-center gap-4 text-lightColor font-semibold mt-2">
+      <div className="w-full flex items-center gap-3">
         <a
           href="tel:+381652007778"
-          className="w-[170px] text-center py-[10px] bg-sky-500 rounded-sm hover:bg-sky-400 transition-colors duration-250"
+          className="w-36 sm:w-[170px] text-center py-[10px] bg-sky-500/80 rounded-sm hover:bg-sky-400/80 transition-colors duration-200"
         >
           Pozovite nas
         </a>
@@ -18,7 +18,7 @@ const HeroTelephone = () => {
       <div className="w-full flex items-center gap-3">
         <a
           href="tel:+381649255454"
-          className="w-[170px] text-center py-[10px] bg-sky-500 rounded-sm hover:bg-sky-400 transition-colors duration-200"
+          className="w-36  sm:w-[170px] text-center py-[10px] bg-sky-500/80 rounded-sm hover:bg-sky-400/80 transition-colors duration-200"
         >
           Kako do ušteda?
         </a>

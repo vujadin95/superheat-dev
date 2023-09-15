@@ -19,7 +19,7 @@ const ToggleThemeButton = () => {
   return (
     <button
       aria-label="change theme button"
-      className="flex items-center justify-center rounded-lg p-2 transition-colors bg-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-700 dark:bg-zinc-600 ml-auto mr-4"
+      className=" focus:outline-none z-10 flex items-center justify-center rounded-lg p-2 transition-colors duration-200 bg-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-700 dark:bg-zinc-600 ml-auto md:ml-2 mr-4 md:mr-0"
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
     >
       {resolvedTheme === "dark" ? (

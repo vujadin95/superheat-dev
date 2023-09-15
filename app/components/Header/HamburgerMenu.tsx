@@ -24,11 +24,12 @@ const HamburgerMenu = () => {
     <div
       ref={buttonRef}
       onClick={() => setIsActive((prev) => !prev)}
-      className={`${styles.hamburgerMenu} ${toggleActiveClass}`}
+      className={`
+      bg-zinc-200 hover:bg-zinc-100 dark:bg-zinc-600 dark:hover:bg-zinc-700 transition-colors  ${styles.hamburgerMenu} ${toggleActiveClass}`}
     >
-      <span className={styles.line1}></span>
-      <span className={styles.line2}></span>
-      <span className={styles.line3}></span>
+      <span className={`bg-zinc-700 dark:bg-zinc-200 ${styles.line1}`}></span>
+      <span className={`bg-zinc-700 dark:bg-zinc-200 ${styles.line2}`}></span>
+      <span className={`bg-zinc-700 dark:bg-zinc-200 ${styles.line3}`}></span>
     </div>
   );
 };

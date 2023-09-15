@@ -7,7 +7,11 @@ interface ProvidersType {
 
 const Providers = ({ children }: ProvidersType) => {
   return (
-    <ThemeProvider attribute="class" enableColorScheme={true}>
+    <ThemeProvider
+      disableTransitionOnChange
+      attribute="class"
+      enableColorScheme={true}
+    >
       {children}
     </ThemeProvider>
   );

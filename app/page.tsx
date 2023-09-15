@@ -9,7 +9,7 @@ export default function Home() {
     <section className="">
       <HeroSection />
       <div className="w-full bg-lightColor dark:bg-darkColor">
-        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-2 xl:p-5 pt-10 pb-10 max-w-[1240px] mx-auto px-5">
+        <div className="max-w-[1240px] mx-auto grid gap-8 min-[860px]:gap-4 lg:gap-8 grid-cols-1 sm:grid-cols-2 min-[860px]:grid-cols-3 px-3 py-8 md:px-5 md:py-20 justify-items-center">
           {cardDetails.map((card) => (
             <Card
               key={card.id}
@@ -23,11 +23,9 @@ export default function Home() {
       <div className="bg-lightColor text-darkColor dark:bg-darkColor dark:text-lightColor bg-[url('/superheat-black.png')] dark:bg-[url('/superheat-white.png')] bg-contain bg-center bg-s bg-no-repeat">
         <QuotationSection />
       </div>
-      <div className="">
-        <Brands />
-      </div>
+      <Brands />
       <div className="text-darkColor dark:text-lightColor">
-        {/* <MapSection /> */}
+        <MapSection />
       </div>
     </section>
   );

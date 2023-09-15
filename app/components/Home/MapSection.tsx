@@ -8,13 +8,6 @@ const MapSection = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row md:items-center gap-10 justify-between w-full max-w-[1240px] mx-auto px-5 py-10">
       <div className="">
-        {/* <Image
-          src={"/superheat.png"}
-          width={200}
-          height={150}
-          className="object-cover w-full h-auto max-w-[300px]"
-          alt="logo"
-        /> */}
         <Logo />
         <div className="text-sm min-w-[300px]">
           <div className="border-b-2 border-gray-300 pt-3 pb-1">
@@ -72,10 +65,9 @@ const MapSection = () => {
               info@superheat.rs
             </a>
           </div>
-          :L
         </div>
       </div>
-      <div className=" z-20 shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition duration-300 max-w-[600px] h-[400px] md:h-[500px] w-full self-center">
+      <div className="shadow-2xl max-w-[600px] h-[400px] md:h-[500px] w-full self-center">
         <DynamicMap />
       </div>
     </div>
