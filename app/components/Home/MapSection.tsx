@@ -2,7 +2,7 @@ import { ImMobile } from "react-icons/im";
 import DynamicMap from "../Map";
 import Image from "next/image";
 import { BsFillEnvelopeFill } from "react-icons/bs";
-import Logo from "../Header/Logo";
+import Logo from "../Logo/Logo";
 
 const MapSection = () => {
   return (

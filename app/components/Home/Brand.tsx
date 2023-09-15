@@ -8,6 +8,7 @@ interface BrandType {
 const Brand = ({ path, brandName, img }: BrandType) => {
   return (
     <Link
+      as={"image"}
       href={path}
       className="bg-lightColor text-darkColor flex flex-col items-center hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] transition duration-300 hover:rounded-sm hover:scale-110"
     >

@@ -9,7 +9,7 @@ export default function Home() {
     <section className="">
       <HeroSection />
       <div className="w-full bg-lightColor dark:bg-darkColor">
-        <div className="flex items-center flex-wrap gap-5 pt-10 pb-10 max-w-[1240px] mx-auto px-5">
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-2 xl:p-5 pt-10 pb-10 max-w-[1240px] mx-auto px-5">
           {cardDetails.map((card) => (
             <Card
               key={card.id}
@@ -27,7 +27,7 @@ export default function Home() {
         <Brands />
       </div>
       <div className="text-darkColor dark:text-lightColor">
-        <MapSection />
+        {/* <MapSection /> */}
       </div>
     </section>
   );

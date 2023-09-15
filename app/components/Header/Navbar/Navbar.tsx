@@ -3,10 +3,10 @@ import { navigationLinks } from "@/app/data/navigationLinks";
 
 const Navbar = () => {
   return (
-    <nav className="hidden md:flex items-center ml-auto mr-2">
+    <nav className="mobile-navigation hidden shrink-0 md:flex items-center ml-auto mr-2">
       {navigationLinks.map((link) => (
         <NavLink
-          styleClass="uppercase tracking-wide font-semibold px-3 py-[6px] rounded-sm hover:bg-sky-400 hover:text-neutral transition-color duration-150"
+          styleClass="uppercase text-sm lg:text-base lg:tracking-wide font-semibold lg:px-3 px-[6px] py-[6px] rounded-sm dark:hover:bg-zinc-600 hover:bg-zinc-200 transition-color duration-150"
           key={link.id}
           path={link.path}
           linkLabel={link.linkLabel}

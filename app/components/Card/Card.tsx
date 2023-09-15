@@ -5,10 +5,35 @@ import Image from "next/image";
 const Card = ({ img, path, title }: CardType) => {
   return (
     <Link
+      as={"image"}
       href={path}
-      className="flex-1 min-w-[300px] relative h-[450px] group/show overflow-hidden"
+      className="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105 "
     >
-      <Image
+      <div className="p-2 relative max-w-[200px]: h-[250px]">
+        <Image
+          src={img}
+          alt={`${title}`}
+          fill
+          sizes="(max-width: 600px) 100vw"
+          className="object-contain sm:object-cover"
+        />
+      </div>
+
+      <div className="px-4 pb-3">
+        <div>
+          <h3 className="py-2 text-2xl">{title}</h3>
+          <button className=" px-4 py-1 font-semibold bg-primary text-neutral rounded-2xl hover:bg-neutral hover:text-primary transition-colors duration-300">
+            Saznajte
+          </button>
+        </div>
+      </div>
+    </Link>
+  );
+};
+export default Card;
+
+/*
+<Image
         src={img}
         alt={`${title}`}
         fill
@@ -22,7 +47,4 @@ const Card = ({ img, path, title }: CardType) => {
           Saznajte
         </button>
       </div>
-    </Link>
-  );
-};
-export default Card;
+*/

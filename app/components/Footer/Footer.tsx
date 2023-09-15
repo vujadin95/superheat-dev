@@ -1,4 +1,4 @@
-import Logo from "../Header/Logo";
+import Logo from "../Logo/Logo";
 import Contact from "./Contact";
 import SocialNetwork from "./SocialNetwork";
 

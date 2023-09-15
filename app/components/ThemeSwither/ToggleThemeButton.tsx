@@ -11,6 +11,7 @@ const ToggleThemeButton = () => {
   useEffect(() => {
     setMounted(true);
   }, []);
+
   if (!mounted) {
     return null;
   }
@@ -18,7 +19,7 @@ const ToggleThemeButton = () => {
   return (
     <button
       aria-label="change theme button"
-      className="flex items-center justify-center rounded-lg p-2 transition-colors hover:bg-zinc-100 dark:hover:bg-zinc-700"
+      className="flex items-center justify-center rounded-lg p-2 transition-colors bg-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-700 dark:bg-zinc-600 ml-auto mr-4"
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
     >
       {resolvedTheme === "dark" ? (

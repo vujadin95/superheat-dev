@@ -6,7 +6,7 @@ const HeroTelephone = () => {
       <div className="w-full flex items-center gap-3 ">
         <a
           href="tel:+381652007778"
-          className="w-[170px] text-center py-[10px] bg-sky-500 rounded-sm hover:bg-sky-400 transition-colors duration-200"
+          className="w-[170px] text-center py-[10px] bg-sky-500 rounded-sm hover:bg-sky-400 transition-colors duration-250"
         >
           Pozovite nas
         </a>
