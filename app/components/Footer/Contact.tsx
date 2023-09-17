@@ -2,7 +2,7 @@ import { ImMobile } from "react-icons/im";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 const Contact = () => {
   return (
-    <div className="text-sm min-w-[300px] flex flex-col items-center">
+    <div className="text-sm  flex flex-col items-center">
       <div className="pb-1 mb-4 text-center">
         <h2 className="font-semibold uppercase tracking-wider pb-1 text-lg">
           Kragujevac

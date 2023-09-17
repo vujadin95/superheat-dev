@@ -9,7 +9,7 @@ const MapSection = () => {
     <div className="flex flex-col-reverse md:flex-row md:items-center gap-10 justify-between w-full max-w-[1240px] mx-auto px-5 py-10">
       <div className="">
         <Logo />
-        <div className="text-sm min-w-[300px]">
+        <div className="text-sm ">
           <div className="border-b-2 border-gray-300 pt-3 pb-1">
             <h2 className="font-semibold tracking-wider pb-2 text-lg">
               Kragujevac

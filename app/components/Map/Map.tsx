@@ -37,7 +37,6 @@ const Map = () => {
       <Marker
         icon={L.icon({
           iconUrl: "/black-bear.png",
-
           iconRetinaUrl: "/black-bear.png",
           iconSize: [iconWidth, iconWidth],
           popupAnchor: [0, -30],

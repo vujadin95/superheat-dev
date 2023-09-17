@@ -2,7 +2,7 @@ import NavLink from "../Header/Navbar/NavLink";
 import { ImMobile } from "react-icons/im";
 const HeroTelephone = () => {
   return (
-    <div className="z-20 text-sm sm:text-base flex flex-col items-center gap-4 text-lightColor font-semibold mt-2">
+    <div className="z-20 text-sm sm:text-base flex flex-col md:mt-2 items-center gap-4 text-lightColor font-semibold ">
       <div className="w-full flex items-center gap-3">
         <a
           href="tel:+381652007778"

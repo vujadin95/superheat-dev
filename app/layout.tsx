@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="sr" suppressHydrationWarning>
       <body className={`${poppins.className} min-h-[100vh] flex flex-col`}>
         <Providers>
-          <div className="w-full bg-lightColor dark:bg-darkColor dark:text-lightColor text-darkColor fixed top-0 z-50 shadow-[0px_20px_20px_0px_#00000024] ">
+          <div className="w-full bg-lightColor dark:bg-darkColor dark:text-lightColor dark:border-b dark:border-zinc-600 border-b border-zinc-300 text-darkColor fixed top-0 z-50 shadow-[0px_20px_20px_0px_#00000024] ">
             <Header />
           </div>
           <main className="pt-[60px] bg-lightColor dark:bg-darkColor min-h-[460px]">

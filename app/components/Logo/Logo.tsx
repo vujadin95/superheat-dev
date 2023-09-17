@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import logoBlack from "../../../public/superheat-black.png";
-import logoLight from "../../../public/superheat-white.png";
+import logoBlack from "@/public/superheat-black.png";
+import logoLight from "@/public/superheat-white.png";
 
 const Logo = () => {
   return (
