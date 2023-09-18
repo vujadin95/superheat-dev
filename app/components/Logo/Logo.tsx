@@ -8,7 +8,6 @@ const Logo = () => {
     <Link
       className="relative flex w-full max-w-[180px] min-[502px]:max-w-[250px] items-center justify-center h-[50px]"
       href={"/"}
-      as={"image"}
     >
       <Image
         src={logoBlack}

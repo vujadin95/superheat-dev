@@ -24,7 +24,7 @@ const Contact = () => {
       </div>
       <div className="pt-3 pb-1 mb-4 text-center">
         <h2 className="font-semibold uppercase tracking-wider pb-1 text-lg">
-          Srnje - Kruševac
+          Kruševac
         </h2>
         <a
           href="tel:+381649255454"

@@ -31,7 +31,7 @@ const MapSection = () => {
           </div>
           <div className="border-b-2 border-gray-300 pt-3 pb-1">
             <h2 className="font-semibold tracking-wider pb-2 text-lg">
-              Srnje - Kruševac
+              Kruševac
             </h2>
             <a
               href="tel:+381649255454"

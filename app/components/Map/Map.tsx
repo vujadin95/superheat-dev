@@ -45,7 +45,7 @@ const Map = () => {
         })}
         position={latLng(srnje.lat, srnje.long)}
       >
-        <Popup>Srnje</Popup>
+        <Popup>Kruševac</Popup>
       </Marker>
       <Marker
         icon={L.icon({
