@@ -1,15 +1,18 @@
 import Image from "next/image";
-
-const BackgroundImage = () => {
+interface PropTypes {
+  imagePath: string;
+  altText: string;
+}
+const BackgroundImage = ({ imagePath, altText }: PropTypes) => {
   return (
     <>
       <Image
-        src={"/assets/hero.jpg"}
+        src={imagePath}
         fill
         priority={true}
         sizes="(max-width: 1140px) 100vw"
-        alt="some"
-        className="fixed object-cover "
+        alt={altText}
+        className="fixed object-cover"
       />
     </>
   );
