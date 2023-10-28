@@ -18,6 +18,9 @@ const config: Config = {
         terniary: "rgb(180 165 127 / <alpha-value>)",
         neutral: "#FFFFFF",
       },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
     },
   },
   plugins: [],

@@ -28,7 +28,7 @@ export default function RootLayout({
           <div className="w-full bg-lightColor dark:bg-darkColor dark:text-lightColor dark:border-b dark:border-zinc-600 border-b border-zinc-300 text-darkColor fixed top-0 z-50 shadow-[0px_20px_20px_0px_#00000024] ">
             <Header />
           </div>
-          <main className="pt-[61px] bg-lightColor dark:bg-darkColor min-h-[460px]">
+          <main className="pt-[61px] bg-lightColor dark:bg-darkColor text-darkColor dark:text-lightColor min-h-[460px]">
             {children}
           </main>
           <div className="bg-lightColor text-darkColor dark:bg-darkColor dark:text-lightColor mt-auto dark:border-zinc-600 border-t border-zinc-300">

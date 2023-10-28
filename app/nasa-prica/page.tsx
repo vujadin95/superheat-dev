@@ -3,7 +3,7 @@ import BackgroundImage from "../components/Home/BackgroundImage";
 const NasaPrica = () => {
   return (
     <>
-      <section className="relative w-full h-[600px] flex items-center">
+      {/* <section className="relative w-full h-[600px] flex items-center">
         <BackgroundImage
           imagePath="/assets/nasa-prica/nasa-prica.jpg"
           altText="o nama"
@@ -15,7 +15,7 @@ const NasaPrica = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="max-w-[1240px] mx-auto flex flex-col items-center py-10 md:py-20 gap-3 md:flex-row px-3 md:px-[20px] text-l sm:text-xl min-[945px]:text-2xl">
         <div className="w-[100%] md:w-[40%]">
           <p className="pb-4 md:pb-6">
@@ -28,7 +28,7 @@ const NasaPrica = () => {
           <img
             src="/assets/nasa-prica/hvac-c.jpg"
             alt=""
-            className="rounded-sm"
+            className="rounded-sm w-full shadow-xl"
           />
         </div>
       </section>
@@ -43,9 +43,9 @@ const NasaPrica = () => {
           </div>
           <div className="w-[100%] md:w-[60%]">
             <img
-              src="/assets/nasa-prica/rashladna-oprema-hladnjace.jpg"
+              src="/assets/nasa-prica/nasa-prica.jpg"
               alt=""
-              className="rounded-sm w-full object-cover"
+              className="rounded-sm w-full object-cover shadow-xl"
             />
           </div>
         </div>
@@ -59,9 +59,9 @@ const NasaPrica = () => {
         </div>
         <div className="w-[100%] md:w-[60%]">
           <img
-            src="/assets/nasa-prica/engineering-team.jpg"
+            src="/assets/nasa-prica/engineer.jpg"
             alt=""
-            className="rounded-sm w-full"
+            className="rounded-sm w-full shadow-xl"
           />
         </div>
       </section>
@@ -78,7 +78,7 @@ const NasaPrica = () => {
             <img
               src="/assets/nasa-prica/izveden-projekat.jpg"
               alt=""
-              className="rounded-sm w-full"
+              className="rounded-sm w-full shadow-xl"
             />
           </div>
         </div>
@@ -96,7 +96,7 @@ const NasaPrica = () => {
           <img
             src="/assets/nasa-prica/analiza-strujanja.jpg"
             alt=""
-            className="rounded-sm w-full"
+            className="rounded-sm w-full shadow-xl"
           />
         </div>
       </section>
@@ -114,7 +114,7 @@ const NasaPrica = () => {
             <img
               src="/assets/nasa-prica/scada.png"
               alt=""
-              className="rounded-sm w-full"
+              className="rounded-sm w-full shadow-xl"
             />
           </div>
         </div>
