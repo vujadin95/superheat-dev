@@ -1,29 +1,25 @@
 import Link from "next/link";
 import { HeroCardType } from "./card.types";
-import Image from "next/image";
 
 const Card = ({ img, path, title }: HeroCardType) => {
   return (
     <Link
       href={path}
-      className="max-w-[375px] w-full relative rounded-md shadow-lg transition-all ease-in duration-200 hover:scale-105 overflow-hidden group bg-zinc-200"
+      className="flex flex-col relative overflow-hidden group items-center justify-center shadow-2xl hover:shadow-black/20 max-w-[400px] md:max-w-full place-self-center"
     >
-      <div className="p-2 relative h-[360px]">
-        <Image
+      <div className="w-full h-[450px]">
+        <img
           src={img}
-          alt={`${title}`}
-          fill
-          sizes="(max-width: 400px) 100vw"
-          className="object-cover rounded-md rounded-b-none"
-          loading="lazy"
+          alt={title}
+          className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500"
         />
       </div>
 
-      <div className="flex flex-col items-center px-4 pb-3 w-full h-full text-darkColor bg-zinc-300 group-hover:bg-zinc-200 dark:bg-zinc-700 dark:group-hover:bg-zinc-600 dark:text-lightColor transition-colors duration-150">
-        <h3 className="py-2 text-lg sm:text-2xl text-center">{title}</h3>
-        <button className="px-4 py-1 font-semibold bg-darkColor text-lightColor rounded-lg hover:bg-lightColor hover:text-darkColor transition-color duration-200 shadow-md">
-          Saznajte
-        </button>
+      <div className="absolute w-full h-full  group-hover:bg-black/30 transition-all duration-500"></div>
+
+      <div className="absolute bg-zinc-300 group-hover:bg-zinc-200 dark:bg-zinc-700 dark:group-hover:bg-zinc-600 bottom-0 w-full translate-y-[66px] group-hover:translate-y-0 px-9 text-center transition-all duration-500">
+        <h1 className="text-3xl font-semibold py-4">{title}</h1>
+        <button className="px-4 py-1 my-4 text-xl font-semibold bg-darkColor text-lightColor rounded-lg hover:bg-lightColor hover:text-darkColor transition-color duration-200 shadow-md">Saznajte</button>
       </div>
     </Link>
   );

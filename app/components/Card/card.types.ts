@@ -7,5 +7,6 @@ export interface HeroCardType {
 export interface NasaResenjaType {
   img: string;
   title: string;
+  description: string;
   styleClass?: string;
 }

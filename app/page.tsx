@@ -6,10 +6,11 @@ import QuotationSection from "./components/Home/QuotationSection";
 import { cardDetails } from "./data/heroCardDetails";
 export default function Home() {
   return (
-    <section className="">
+    <section>
       <HeroSection />
       <div className="w-full bg-lightColor dark:bg-darkColor">
-        <div className="max-w-[1240px] mx-auto grid gap-8 min-[860px]:gap-4 lg:gap-8 grid-cols-1 sm:grid-cols-2 min-[860px]:grid-cols-3 px-3 py-8 md:px-5 md:py-20 justify-items-center">
+        <div className="max-w-[1240px] py-10 md:py-20 px-3 md:px-5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {/* <Card img={cardDetails[0].img} path={cardDetails[0].path} title={cardDetails[0].title} /> */}
           {cardDetails.map((card) => (
             <Card
               key={card.id}
