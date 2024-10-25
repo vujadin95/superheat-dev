@@ -15,6 +15,30 @@
         "callUs": "Pozovite nas",
         "howToSaveEnergy": "Kako do ušteda?"
       }
+    },
+
+    "heroCardDetails": {
+      "aboutUs": {
+        "id": "1",
+        "title": "O Nama",
+        "path": "/about-us",
+        "imgPath": "/assets/cardSection/our-story.jpg",
+        "buttonText": "Saznajte"
+      },
+      "optimizationSystem": {
+        "id": "2",
+        "title": "Sistem Optimizacije",
+        "path": "/optimization-system",
+        "imgPath": "/assets/cardSection/why-superheat.jpg",
+        "buttonText": "Saznajte"
+      },
+      "portfolio": {
+        "id": "3",
+        "title": "Portfolio",
+        "path": "/portfolio",
+        "imgPath": "/assets/cardSection/our-solution.jpg",
+        "buttonText": "Saznajte"
+      }
     }
   },
   "navigationLinks": {
@@ -42,6 +66,27 @@
       "id": "5",
       "path": "/contact",
       "label": "Kontakt"
+    }
+  },
+  "AboutUsPage": {
+    "ourStory": {
+      "paragraph1": "SUPERHEAT je firma koja se bavi razvojem proizvodnjom, instalacijom i projektovanjem visokokvalitetnih, energetski efikasnih i ekološki prihvatljivih rešenja u oblasti industrijske rashladne tehnike i termo-tehnike.",
+      "paragraph2": "Realizujemo standardne i posebno prilagođene projekte industrijskog hlađenja, grejanja i klimatizacije gde pružamo kompletnu uslugu od projektovanja do puštanja u rad.",
+      "paragraph3": "Mi smo kompetentan i pouzdan partner koji u svom timu ima inženjere i tehničare sa iskustvom od preko 20 godina i međunarodnim priznanjima za ostvarene uspehe u razvoju inovativnih rashladnih sistema i toplotnih pumpi."
+    },
+    "foundationAndFirstSteps": {
+      "paragraph1": "SUPERHEAT je firma nastala iz firme NAPON D.O.O. koja uspešno posluje preko 30 godina (osnovana 1992. godine) u oblasti industrijske automatizacije procesnih linija i mašina.",
+      "paragraph2": "Potreba za osnivanjem firme Superheat nastala je sa uspešnom realizacijom inovativne ideje proizvodnje SISTEMA AUTOMATIKE ZA OPTIMIZACIJU POSTOJEĆIH RASHLADNIH SISTEMA.",
+      "paragraph3": "Osnivači Milan Popović (inženjer mašinstva) i Nikola Milojević (inženjer automatike) objedinili su svoja inženjerska iskustva i znanja iz oblasti automatike i tehnologije hlađenja, razvili inovativan proizvod i tako 7.10.2022. godine osnovali preduzetničku radnju: SUPERHEAT.",
+      "paragraph4": "Već 7.5.2024. godine osnovano je preduzeće SUPERHEAT D.O.O. kao odgovor na povećani obim posla jer je u prvoj godini poslovanja realizovano preko 20 projekata."
+    },
+    "businessPolicy": {
+      "paragraph1": "Naš politika poslovanja je da stalno razvijamo nove tehnologije i rešenja, koja su ekološki prihvatljivija i energetski efikasnija od prethodnih rešenja.",
+      "list": "Mi u tom smislu preduzimamo konkretne korake:",
+      "listItem1": "uspeli smo da unapredimo postojeće rashladne sisteme sa sintetičkim rashladnim sredstvima (freonima) i tako smanjili njihovu emisiju CO 2 za vreme njihove eksploatacije",
+      "listItem2": "razvijamo i proizvodimo sisteme sa prirodnim rashladnim sredstvom koje ima “nulti uticaj na životnu sredinu“: amonijačni (NH3) rashladni sistemi (ODP=0; GWP=0)",
+      "paragraph2": "Posvećeni smo zaštiti životne sredine pa su i naša rešenja projektovana za maksimalnu energetsku efikasnost.",
+      "paragraph3": "Pozivamo sve da daju svoj doprinos u očuvanju životne sredine jer ona ostaje našim pokolenjima."
     }
   }
 }

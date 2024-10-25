@@ -4,10 +4,9 @@ import HeroTelephone from "./HeroTelephone";
 import TypeWriterText from "./TypeWriterText";
 
 const HeroSection = () => {
-  const t = useTranslations('HomePage.HeroSection.writtableStrings');
-  const keys = ['stringOne', "stringTwo", "stringThree", "stringFour"];
-  const writtableStrings = keys.map(key => t(`${key}.value`))
-
+  const t = useTranslations("HomePage.HeroSection.writtableStrings");
+  const keys = ["stringOne", "stringTwo", "stringThree", "stringFour"];
+  const writtableStrings = keys.map((key) => t(`${key}.value`));
   return (
     <section className="relative w-full h-[600px] flex flex-col items-start">
       <BackgroundImage

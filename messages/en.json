@@ -17,6 +17,30 @@
         "callUs": "Call Us",
         "howToSaveEnergy": "How To Savings?"
       }
+    },
+
+    "heroCardDetails": {
+      "aboutUs": {
+        "id": "1",
+        "title": "About Us",
+        "path": "/about-us",
+        "imgPath": "/assets/cardSection/our-story.jpg",
+        "buttonText": "More"
+      },
+      "optimizationSystem": {
+        "id": "2",
+        "title": "Optimization System",
+        "path": "/optimization-system",
+        "imgPath": "/assets/cardSection/why-superheat.jpg",
+        "buttonText": "More"
+      },
+      "portfolio": {
+        "id": "3",
+        "title": "Portfolio",
+        "path": "/portfolio",
+        "imgPath": "/assets/cardSection/our-solution.jpg",
+        "buttonText": "More"
+      }
     }
   },
   "navigationLinks": {
@@ -44,6 +68,27 @@
       "id": "5",
       "path": "/contact",
       "label": "Contact"
+    }
+  },
+  "AboutUsPage": {
+    "ourStory": {
+      "paragraph1": "SUPERHEAT is a company that develops, manufactures, installs and designs high-quality, energy-efficient and environmentally friendly solutions in the field of industrial refrigeration and thermo-technology.",
+      "paragraph2": "We implement standard and specially adapted industrial cooling, heating and air conditioning projects where we provide a complete service from design to commissioning.",
+      "paragraph3": "We are a competent and reliable partner with engineers and technicians in our team with over 20 years of experience and international recognition for our achievements in the development of innovative cooling systems and heat pumps."
+    },
+    "foundationAndFirstSteps": {
+      "paragraph1": "SUPERHEAT is a company created from the company NAPON D.O.O. which has been successfully operating for over 30 years (founded in 1992) in the field of industrial automation of process lines and machines.",
+      "paragraph2": "The need to establish the company Superheat arose with the successful realization of the innovative idea of ​production of AUTOMATION SYSTEMS FOR OPTIMIZATION OF EXISTING COOLING SYSTEMS.",
+      "paragraph3": "The founders Milan Popović (mechanical engineer) and Nikola Milojević (automatic engineer) combined their engineering experience and knowledge in the field of automatics and cooling technology, developed an innovative product and so on 7.10.2022. founded an entrepreneurial shop: SUPERHEAT.",
+      "paragraph4": "Already on 7/5/2024. the company SUPERHEAT D.O.O. was founded. as a response to the increased volume of work, as over 20 projects were realized in the first year of operation."
+    },
+    "businessPolicy": {
+      "paragraph1": "Our business policy is to constantly develop new technologies and solutions that are environmentally friendly more acceptable and energy efficient than previous solutions.",
+      "list": "We are taking concrete steps in this sense:",
+      "listItem1": "we managed to improve the existing cooling systems with synthetic refrigerants (freons) and thus reduce their CO 2 emissions during their exploitation",
+      "listItem": "we develop and produce systems with a natural refrigerant that has 'zero impact on the environment': ammonia (NH3) refrigeration systems (ODP=0; GWP=0)",
+      "paragraph2": "We are dedicated to environmental protection, so our solutions are designed for maximum energy efficiency.",
+      "paragraph3": "We invite everyone to contribute to the preservation of the environment because it remains for our generations."
     }
   }
 }
