@@ -16,5 +16,32 @@
         "howToSaveEnergy": "Kako do ušteda?"
       }
     }
+  },
+  "navigationLinks": {
+    "about-us": {
+      "id": "1",
+      "path": "/about-us",
+      "label": "O Nama"
+    },
+    "portfolio": {
+      "id": "2",
+      "path": "/portfolio",
+      "label": "Portfolio"
+    },
+    "whySuperheat": {
+      "id": "3",
+      "path": "/why-choose-superheat",
+      "label": "Zašto izabrati Superheat"
+    },
+    "optimizationSystem": {
+      "id": "4",
+      "path": "/optimization-system",
+      "label": "Sistem Optimizacije"
+    },
+    "contact": {
+      "id": "5",
+      "path": "/contact",
+      "label": "Kontakt"
+    }
   }
 }

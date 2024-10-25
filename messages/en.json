@@ -18,5 +18,32 @@
         "howToSaveEnergy": "How To Savings?"
       }
     }
+  },
+  "navigationLinks": {
+    "about-us": {
+      "id": "1",
+      "path": "/about-us",
+      "label": "About Us"
+    },
+    "portfolio": {
+      "id": "2",
+      "path": "/portfolio",
+      "label": "Portfolio"
+    },
+    "whySuperheat": {
+      "id": "3",
+      "path": "/why-choose-superheat",
+      "label": "Why Choose Superheat"
+    },
+    "optimizationSystem": {
+      "id": "4",
+      "path": "/optimization-system",
+      "label": "Optimization System"
+    },
+    "contact": {
+      "id": "5",
+      "path": "/contact",
+      "label": "Contact"
+    }
   }
 }
