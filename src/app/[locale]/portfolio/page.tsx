@@ -1,5 +1,5 @@
-import NasaResenjaCard from "../components/Card/NasaResenjaCard";
-import { cardDetails } from "../data/nasaResenjaCards";
+import NasaResenjaCard from "../../components/Card/NasaResenjaCard";
+import { cardDetails } from "../../data/nasaResenjaCards";
 const NasaResenja = () => {
   return (
     <>

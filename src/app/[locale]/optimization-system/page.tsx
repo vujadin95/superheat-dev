@@ -1,5 +1,5 @@
-import Chiller from "../components/Charts/Chiller";
-import DirektnaExpanzija from "../components/Charts/DirektnaExpanzija";
+import Chiller from "../../components/Charts/Chiller";
+import DirektnaExpanzija from "../../components/Charts/DirektnaExpanzija";
 
 const ZastoSuperheat = () => {
   return (

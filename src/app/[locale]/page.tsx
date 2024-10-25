@@ -1,10 +1,13 @@
-import Card from "./components/Card/Card";
-import Brands from "./components/Home/Brands";
-import HeroSection from "./components/Home/HeroSection";
-import MapSection from "./components/Home/MapSection";
-import QuotationSection from "./components/Home/QuotationSection";
-import { cardDetails } from "./data/heroCardDetails";
+import { useTranslations } from "next-intl";
+import Card from "../components/Card/Card";
+import Brands from "../components/Home/Brands";
+import HeroSection from "../components/Home/HeroSection";
+import MapSection from "../components/Home/MapSection";
+import QuotationSection from "../components/Home/QuotationSection";
+import { cardDetails } from "../data/heroCardDetails";
+
 export default function Home() {
+  const t = useTranslations("HomePage")
   return (
     <section>
       <HeroSection />

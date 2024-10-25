@@ -1,6 +1,6 @@
-import BackgroundImage from "../components/Home/BackgroundImage";
+import BackgroundImage from "../../components/Home/BackgroundImage";
 
-const NasaPrica = () => {
+const ONama = () => {
   return (
     <>
       {/* <section className="relative w-full h-[600px] flex items-center">
@@ -122,4 +122,4 @@ const NasaPrica = () => {
     </>
   );
 };
-export default NasaPrica;
+export default ONama;

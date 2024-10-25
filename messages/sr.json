@@ -1,0 +1,20 @@
+{
+  "HomePage": {
+    "HeroSection": {
+      "writtableStrings": {
+        "stringOne": {
+          "value": "SMANJUJEMO POTROŠNJU ELEKTRIČNE ENERGIJE VAŠE HLADNJAČE I DO 35%"
+        },
+        "stringTwo": { "value": "PRED VAMA DOKAZUJEMO UŠTEDE I DO 35%" },
+        "stringThree": {
+          "value": "OPTIMIZUJEMO RAD I PRODUŽAVAMO RADNI VEK VAŠE RASHLADNE OPREME"
+        },
+        "stringFour": { "value": "UČINIĆEMO VAŠ BIZNIS EFIKASNIJIM" }
+      },
+      "HeroContact": {
+        "callUs": "Pozovite nas",
+        "howToSaveEnergy": "Kako do ušteda?"
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import Brand from "./Brand";
-import { brandsCollecton } from "@/app/data/brandsCollection";
+import { brandsCollecton } from "@/src/app/data/brandsCollection";
 
 const Brands = () => {
   return (

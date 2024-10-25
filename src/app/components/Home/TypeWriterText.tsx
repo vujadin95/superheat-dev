@@ -1,8 +1,12 @@
 "use client";
 import TypewriterComponent from "typewriter-effect";
-import { writtableStrings } from "@/app/data/heroWrittableStrings";
 
-const TypeWriterText = () => {
+interface TypeWriterTextProps {
+  writtableStrings: string[]
+}
+
+const TypeWriterText = ({ writtableStrings }: TypeWriterTextProps) => {
+
   return (
     <div className="max-w-[650px] text-2xl md:text-4xl text-[#FEFEFA] drop-shadow-2xl font-semibold tracking-wide leading-snug">
       <TypewriterComponent

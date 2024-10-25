@@ -1,5 +1,5 @@
 "use client";
-import { quotations } from "@/app/data/quotation";
+import { quotations } from "@/src/app/data/quotation";
 import Quote from "./Quote";
 const QuotationSection = () => {
   return (

@@ -1,5 +1,6 @@
 "use client";
-import Link from "next/link";
+// import Link from "next/link";
+import { Link } from "@/src/i18n/routing";
 import { NavLinkType } from "./navlink.types";
 import { usePathname } from "next/navigation";
 
