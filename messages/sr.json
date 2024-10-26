@@ -1,4 +1,8 @@
 {
+  "LocaleSwitcher": {
+    "label": "Promeni jezik",
+    "locale": "{locale, select, sr {sr Serbia} en {🇺🇸 English} other {Nepoznato}}"
+  },
   "HomePage": {
     "HeroSection": {
       "writtableStrings": {

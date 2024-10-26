@@ -1,4 +1,8 @@
 {
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, sr {sr Serbia} en {🇺🇸 English} other {Unknown}}"
+  },
   "HomePage": {
     "HeroSection": {
       "writtableStrings": {
@@ -86,7 +90,7 @@
       "paragraph1": "Our business policy is to constantly develop new technologies and solutions that are environmentally friendly more acceptable and energy efficient than previous solutions.",
       "list": "We are taking concrete steps in this sense:",
       "listItem1": "we managed to improve the existing cooling systems with synthetic refrigerants (freons) and thus reduce their CO 2 emissions during their exploitation",
-      "listItem": "we develop and produce systems with a natural refrigerant that has 'zero impact on the environment': ammonia (NH3) refrigeration systems (ODP=0; GWP=0)",
+      "listItem2": "we develop and produce systems with a natural refrigerant that has 'zero impact on the environment': ammonia (NH3) refrigeration systems (ODP=0; GWP=0)",
       "paragraph2": "We are dedicated to environmental protection, so our solutions are designed for maximum energy efficiency.",
       "paragraph3": "We invite everyone to contribute to the preservation of the environment because it remains for our generations."
     }

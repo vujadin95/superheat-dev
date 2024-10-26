@@ -2,6 +2,7 @@ import Navbar from "./Navbar/Navbar";
 import Logo from "../Logo/Logo";
 import ToggleThemeButton from "../ThemeSwither/ToggleThemeButton";
 import HamburgerMenu from "./HamburgerMenu";
+import LocaleSwitcher from "../LanguageSwitcher/LocaleSwitcher";
 
 const Header = () => {
   return (
@@ -9,6 +10,7 @@ const Header = () => {
       <Logo />
       <Navbar />
       <ToggleThemeButton />
+      <LocaleSwitcher />
       <HamburgerMenu />
     </header>
   );
